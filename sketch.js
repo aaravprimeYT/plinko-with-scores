@@ -57,10 +57,10 @@ function setup() {
 function draw() {
   background("black");
   textSize(20)
- //text("Score "+score,700,50);
+ text("Score "+score,700,50);
   Engine.update(engine);
 
-  text(mouseX + " " + mouseY,700,50);
+  //text(mouseX + " " + mouseY,700,50);
   text("25",25,700);
   text("30",110,700);
   text("-28",190,700);
